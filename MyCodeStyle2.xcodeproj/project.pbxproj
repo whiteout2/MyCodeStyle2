@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1446C432406A99D003820B5 /* MyCodeStyle2.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D1446C422406A99D003820B5 /* MyCodeStyle2.entitlements */; };
+		D1446C462406A99D003820B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C452406A99D003820B5 /* AppDelegate.m */; };
+		D1446C492406A99D003820B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1446C472406A99D003820B5 /* Main.storyboard */; };
+		D1446C4C2406A99D003820B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C4B2406A99D003820B5 /* ViewController.m */; };
+		D1446C4E2406A9A2003820B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1446C4D2406A9A2003820B5 /* Assets.xcassets */; };
+		D1446C512406A9A2003820B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C502406A9A2003820B5 /* main.m */; };
+		D1446C572406A9A3003820B5 /* MyCodeStyle2 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1446C562406A9A3003820B5 /* MyCodeStyle2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D1446C5C2406A9A3003820B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1446C5B2406A9A3003820B5 /* Cocoa.framework */; };
+		D1446C602406A9A3003820B5 /* SafariExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C5F2406A9A3003820B5 /* SafariExtensionHandler.m */; };
+		D1446C632406A9A3003820B5 /* SafariExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C622406A9A3003820B5 /* SafariExtensionViewController.m */; };
+		D1446C662406A9A3003820B5 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1446C642406A9A3003820B5 /* SafariExtensionViewController.xib */; };
+		D1446C692406A9A3003820B5 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = D1446C682406A9A3003820B5 /* script.js */; };
+		D1446C6B2406A9A3003820B5 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1446C582406A9A3003820B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1446C372406A99D003820B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1446C552406A9A3003820B5;
+			remoteInfo = "MyCodeStyle2 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1446C722406A9A3003820B5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D1446C572406A9A3003820B5 /* MyCodeStyle2 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1446C3F2406A99D003820B5 /* MyCodeStyle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCodeStyle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1446C422406A99D003820B5 /* MyCodeStyle2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCodeStyle2.entitlements; sourceTree = "<group>"; };
+		D1446C442406A99D003820B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1446C452406A99D003820B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1446C482406A99D003820B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1446C4A2406A99D003820B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1446C4B2406A99D003820B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1446C4D2406A9A2003820B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1446C4F2406A9A2003820B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1446C502406A9A2003820B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1446C562406A9A3003820B5 /* MyCodeStyle2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyCodeStyle2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1446C5B2406A9A3003820B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D1446C5E2406A9A3003820B5 /* SafariExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionHandler.h; sourceTree = "<group>"; };
+		D1446C5F2406A9A3003820B5 /* SafariExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionHandler.m; sourceTree = "<group>"; };
+		D1446C612406A9A3003820B5 /* SafariExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionViewController.h; sourceTree = "<group>"; };
+		D1446C622406A9A3003820B5 /* SafariExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionViewController.m; sourceTree = "<group>"; };
+		D1446C652406A9A3003820B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		D1446C672406A9A3003820B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1446C682406A9A3003820B5 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		D1446C6C2406A9A3003820B5 /* MyCodeStyle2_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCodeStyle2_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1446C3C2406A99D003820B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1446C532406A9A3003820B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1446C5C2406A9A3003820B5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1446C362406A99D003820B5 = {
+			isa = PBXGroup;
+			children = (
+				D1446C412406A99D003820B5 /* MyCodeStyle2 */,
+				D1446C5D2406A9A3003820B5 /* MyCodeStyle2 Extension */,
+				D1446C5A2406A9A3003820B5 /* Frameworks */,
+				D1446C402406A99D003820B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1446C402406A99D003820B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1446C3F2406A99D003820B5 /* MyCodeStyle2.app */,
+				D1446C562406A9A3003820B5 /* MyCodeStyle2 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1446C412406A99D003820B5 /* MyCodeStyle2 */ = {
+			isa = PBXGroup;
+			children = (
+				D1446C422406A99D003820B5 /* MyCodeStyle2.entitlements */,
+				D1446C442406A99D003820B5 /* AppDelegate.h */,
+				D1446C452406A99D003820B5 /* AppDelegate.m */,
+				D1446C472406A99D003820B5 /* Main.storyboard */,
+				D1446C4A2406A99D003820B5 /* ViewController.h */,
+				D1446C4B2406A99D003820B5 /* ViewController.m */,
+				D1446C4D2406A9A2003820B5 /* Assets.xcassets */,
+				D1446C4F2406A9A2003820B5 /* Info.plist */,
+				D1446C502406A9A2003820B5 /* main.m */,
+			);
+			path = MyCodeStyle2;
+			sourceTree = "<group>";
+		};
+		D1446C5A2406A9A3003820B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1446C5B2406A9A3003820B5 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1446C5D2406A9A3003820B5 /* MyCodeStyle2 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D1446C5E2406A9A3003820B5 /* SafariExtensionHandler.h */,
+				D1446C5F2406A9A3003820B5 /* SafariExtensionHandler.m */,
+				D1446C612406A9A3003820B5 /* SafariExtensionViewController.h */,
+				D1446C622406A9A3003820B5 /* SafariExtensionViewController.m */,
+				D1446C642406A9A3003820B5 /* SafariExtensionViewController.xib */,
+				D1446C672406A9A3003820B5 /* Info.plist */,
+				D1446C682406A9A3003820B5 /* script.js */,
+				D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */,
+				D1446C6C2406A9A3003820B5 /* MyCodeStyle2_Extension.entitlements */,
+			);
+			path = "MyCodeStyle2 Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1446C3E2406A99D003820B5 /* MyCodeStyle2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1446C732406A9A3003820B5 /* Build configuration list for PBXNativeTarget "MyCodeStyle2" */;
+			buildPhases = (
+				D1446C3B2406A99D003820B5 /* Sources */,
+				D1446C3C2406A99D003820B5 /* Frameworks */,
+				D1446C3D2406A99D003820B5 /* Resources */,
+				D1446C722406A9A3003820B5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1446C592406A9A3003820B5 /* PBXTargetDependency */,
+			);
+			name = MyCodeStyle2;
+			productName = MyCodeStyle2;
+			productReference = D1446C3F2406A99D003820B5 /* MyCodeStyle2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1446C552406A9A3003820B5 /* MyCodeStyle2 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1446C6F2406A9A3003820B5 /* Build configuration list for PBXNativeTarget "MyCodeStyle2 Extension" */;
+			buildPhases = (
+				D1446C522406A9A3003820B5 /* Sources */,
+				D1446C532406A9A3003820B5 /* Frameworks */,
+				D1446C542406A9A3003820B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyCodeStyle2 Extension";
+			productName = "MyCodeStyle2 Extension";
+			productReference = D1446C562406A9A3003820B5 /* MyCodeStyle2 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1446C372406A99D003820B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rik Goossens";
+				TargetAttributes = {
+					D1446C3E2406A99D003820B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D1446C552406A9A3003820B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D1446C3A2406A99D003820B5 /* Build configuration list for PBXProject "MyCodeStyle2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1446C362406A99D003820B5;
+			productRefGroup = D1446C402406A99D003820B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1446C3E2406A99D003820B5 /* MyCodeStyle2 */,
+				D1446C552406A9A3003820B5 /* MyCodeStyle2 Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1446C3D2406A99D003820B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1446C432406A99D003820B5 /* MyCodeStyle2.entitlements in Resources */,
+				D1446C4E2406A9A2003820B5 /* Assets.xcassets in Resources */,
+				D1446C492406A99D003820B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1446C542406A9A3003820B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1446C6B2406A9A3003820B5 /* ToolbarItemIcon.pdf in Resources */,
+				D1446C662406A9A3003820B5 /* SafariExtensionViewController.xib in Resources */,
+				D1446C692406A9A3003820B5 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1446C3B2406A99D003820B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1446C4C2406A99D003820B5 /* ViewController.m in Sources */,
+				D1446C512406A9A2003820B5 /* main.m in Sources */,
+				D1446C462406A99D003820B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1446C522406A9A3003820B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1446C632406A9A3003820B5 /* SafariExtensionViewController.m in Sources */,
+				D1446C602406A9A3003820B5 /* SafariExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1446C592406A9A3003820B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1446C552406A9A3003820B5 /* MyCodeStyle2 Extension */;
+			targetProxy = D1446C582406A9A3003820B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1446C472406A99D003820B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1446C482406A99D003820B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1446C642406A9A3003820B5 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1446C652406A9A3003820B5 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1446C6D2406A9A3003820B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1446C6E2406A9A3003820B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1446C702406A9A3003820B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MyCodeStyle2 Extension/MyCodeStyle2_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyCodeStyle2 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blacksphere.MyCodeStyle2-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1446C712406A9A3003820B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MyCodeStyle2 Extension/MyCodeStyle2_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MyCodeStyle2 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blacksphere.MyCodeStyle2-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1446C742406A9A3003820B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyCodeStyle2/MyCodeStyle2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCodeStyle2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blacksphere.MyCodeStyle2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1446C752406A9A3003820B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyCodeStyle2/MyCodeStyle2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MyCodeStyle2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Blacksphere.MyCodeStyle2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1446C3A2406A99D003820B5 /* Build configuration list for PBXProject "MyCodeStyle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1446C6D2406A9A3003820B5 /* Debug */,
+				D1446C6E2406A9A3003820B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1446C6F2406A9A3003820B5 /* Build configuration list for PBXNativeTarget "MyCodeStyle2 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1446C702406A9A3003820B5 /* Debug */,
+				D1446C712406A9A3003820B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1446C732406A9A3003820B5 /* Build configuration list for PBXNativeTarget "MyCodeStyle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1446C742406A9A3003820B5 /* Debug */,
+				D1446C752406A9A3003820B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1446C372406A99D003820B5 /* Project object */;
+}
