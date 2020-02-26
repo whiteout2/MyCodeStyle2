@@ -24,6 +24,13 @@
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
 	<dict>
+		<key>SFSafariStyleSheet</key>
+		<array>
+			<dict>
+				<key>Style Sheet</key>
+				<string>mycodestyle.css</string>
+			</dict>
+		</array>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.Safari.extension</string>
 		<key>NSExtensionPrincipalClass</key>
@@ -50,6 +57,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.wikipedia.org</string>
 				<string>*.webkit.org</string>
 			</array>
 			<key>Level</key>
@@ -59,6 +67,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020 Rik Goossens. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>QQQ</string>
+	<string>Visual Studio code colors for Wikipedia</string>
 </dict>
 </plist>
