@@ -13,6 +13,10 @@
 
 @end
 
+// TODO:
+// * toolbar icon without clipping
+// * handle checkbox and URL detection
+
 @implementation SafariExtensionHandler
 
 - (void)messageReceivedWithName:(NSString *)messageName fromPage:(SFSafariPage *)page userInfo:(NSDictionary *)userInfo {
