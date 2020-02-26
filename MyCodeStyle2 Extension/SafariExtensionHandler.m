@@ -25,7 +25,12 @@
 - (void)toolbarItemClickedInWindow:(SFSafariWindow *)window {
     // This method will be called when your toolbar item is clicked.
     NSLog(@"The extension's toolbar item was clicked");
+    
+    ///////////////
+    //NSWindowController * wc=[[NSWindowController alloc] initWithWindowNibName:@"SafariExtensionViewController"];
+    //[wc showWindow:self];
 }
+
 
 - (void)validateToolbarItemInWindow:(SFSafariWindow *)window validationHandler:(void (^)(BOOL enabled, NSString *badgeText))validationHandler {
     // This method will be called whenever some state changes in the passed in window. You should use this as a chance to enable or disable your toolbar item and set badge text.

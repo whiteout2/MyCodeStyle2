@@ -22,6 +22,7 @@
 		D1446C6B2406A9A3003820B5 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */; };
 		D1446C7D2406BA31003820B5 /* mycodestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = D1446C7C2406BA31003820B5 /* mycodestyle.css */; };
 		D1446CBF2406C43E003820B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D1446CBE2406C43E003820B5 /* README.md */; };
+		D1446CC12406E259003820B5 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC02406E259003820B5 /* Icon-256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		D1446C6C2406A9A3003820B5 /* MyCodeStyle2_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCodeStyle2_Extension.entitlements; sourceTree = "<group>"; };
 		D1446C7C2406BA31003820B5 /* mycodestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = mycodestyle.css; sourceTree = "<group>"; };
 		D1446CBE2406C43E003820B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		D1446CC02406E259003820B5 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		D1446C5D2406A9A3003820B5 /* MyCodeStyle2 Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D1446CC02406E259003820B5 /* Icon-256.png */,
 				D1446C5E2406A9A3003820B5 /* SafariExtensionHandler.h */,
 				D1446C5F2406A9A3003820B5 /* SafariExtensionHandler.m */,
 				D1446C612406A9A3003820B5 /* SafariExtensionViewController.h */,
@@ -248,6 +251,7 @@
 				D1446C6B2406A9A3003820B5 /* ToolbarItemIcon.pdf in Resources */,
 				D1446CBF2406C43E003820B5 /* README.md in Resources */,
 				D1446C662406A9A3003820B5 /* SafariExtensionViewController.xib in Resources */,
+				D1446CC12406E259003820B5 /* Icon-256.png in Resources */,
 				D1446C692406A9A3003820B5 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedController = [[SafariExtensionViewController alloc] init];
-        sharedController.preferredContentSize = NSMakeSize(320, 240);
+        sharedController.preferredContentSize = NSMakeSize(240, 240);
     });
     return sharedController;
 }
