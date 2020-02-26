@@ -1,6 +1,8 @@
 # MyCodeStyle2
 Safari 13 App Extension to get Visual Studio code colors in Wikipedia
 
+![vscolors](mycodestyle2.png)
+
 ![vscolors](https://raw.githubusercontent.com/whiteout2/mycodestyle/master/ezgif.com-apng-maker.png)
 
 
