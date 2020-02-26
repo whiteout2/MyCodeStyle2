@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyCodeStyle2.xcodeproj">
+      location = "group:/Volumes/Part3/Quake/test/MyCodeStyle2/MyCodeStyle2 Extension/mycodestyle.css">
+   </FileRef>
+   <FileRef
+      location = "group:../README.md">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

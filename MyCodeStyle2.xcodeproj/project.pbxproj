@@ -68,6 +68,7 @@
 		D1446C682406A9A3003820B5 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		D1446C6C2406A9A3003820B5 /* MyCodeStyle2_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyCodeStyle2_Extension.entitlements; sourceTree = "<group>"; };
+		D1446C7A2406B96F003820B5 /* mycodestyle.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = mycodestyle.css; path = "/Volumes/Part3/Quake/test/MyCodeStyle2/MyCodeStyle2 Extension/mycodestyle.css"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +142,7 @@
 				D1446C622406A9A3003820B5 /* SafariExtensionViewController.m */,
 				D1446C642406A9A3003820B5 /* SafariExtensionViewController.xib */,
 				D1446C672406A9A3003820B5 /* Info.plist */,
+				D1446C7A2406B96F003820B5 /* mycodestyle.css */,
 				D1446C682406A9A3003820B5 /* script.js */,
 				D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */,
 				D1446C6C2406A9A3003820B5 /* MyCodeStyle2_Extension.entitlements */,
@@ -409,7 +411,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MyCodeStyle2 Extension/MyCodeStyle2_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66R4DJ92ZQ;
 				INFOPLIST_FILE = "MyCodeStyle2 Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "MyCodeStyle2 Extension/MyCodeStyle2_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66R4DJ92ZQ;
 				INFOPLIST_FILE = "MyCodeStyle2 Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,8 +450,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyCodeStyle2/MyCodeStyle2.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66R4DJ92ZQ;
 				INFOPLIST_FILE = MyCodeStyle2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,8 +469,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MyCodeStyle2/MyCodeStyle2.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66R4DJ92ZQ;
 				INFOPLIST_FILE = MyCodeStyle2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
