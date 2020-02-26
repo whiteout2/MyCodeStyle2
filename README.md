@@ -6,7 +6,7 @@ Safari 13 App Extension to get Visual Studio code colors in Wikipedia
 
 See: https://developer.apple.com/documentation/safariservices/safari_app_extensions/building_a_safari_app_extension?language=objc
 
-##Enable Your App Extension in Safari
+## Enable Your App Extension in Safari
 
 If you’re not part of the Apple Development Program, or if you haven’t yet configured a developer identity for your existing Xcode project, your Safari App Extension won’t be signed with a development certificate. For security purposes, Safari, by default, ignores unsigned extensions, so your extension won’t show up in Safari Extensions preferences.
 To develop without a certificate, each time Safari is launched, you must tell it to load unsigned extensions using the Develop menu:
