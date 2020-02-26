@@ -23,6 +23,11 @@
 		D1446C7D2406BA31003820B5 /* mycodestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = D1446C7C2406BA31003820B5 /* mycodestyle.css */; };
 		D1446CBF2406C43E003820B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D1446CBE2406C43E003820B5 /* README.md */; };
 		D1446CC12406E259003820B5 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC02406E259003820B5 /* Icon-256.png */; };
+		D1446CC32406EF72003820B5 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC22406EF72003820B5 /* Icon-16.png */; };
+		D1446CC52406F0B9003820B5 /* Icon-16.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC42406F0B9003820B5 /* Icon-16.pdf */; };
+		D1446CC72406F666003820B5 /* ToolbarItemIcon4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC62406F666003820B5 /* ToolbarItemIcon4.pdf */; };
+		D1446CC92406F9DB003820B5 /* Icon-64.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC82406F9DA003820B5 /* Icon-64.pdf */; };
+		D1446CCB2406FC7A003820B5 /* Icon-64-80x80.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CCA2406FC79003820B5 /* Icon-64-80x80.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +79,11 @@
 		D1446C7C2406BA31003820B5 /* mycodestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = mycodestyle.css; sourceTree = "<group>"; };
 		D1446CBE2406C43E003820B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D1446CC02406E259003820B5 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
+		D1446CC22406EF72003820B5 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-16.png"; sourceTree = "<group>"; };
+		D1446CC42406F0B9003820B5 /* Icon-16.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Icon-16.pdf"; sourceTree = "<group>"; };
+		D1446CC62406F666003820B5 /* ToolbarItemIcon4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon4.pdf; sourceTree = "<group>"; };
+		D1446CC82406F9DA003820B5 /* Icon-64.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Icon-64.pdf"; sourceTree = "<group>"; };
+		D1446CCA2406FC79003820B5 /* Icon-64-80x80.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Icon-64-80x80.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,8 @@
 		D1446C5D2406A9A3003820B5 /* MyCodeStyle2 Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D1446CCA2406FC79003820B5 /* Icon-64-80x80.pdf */,
+				D1446CC42406F0B9003820B5 /* Icon-16.pdf */,
 				D1446CC02406E259003820B5 /* Icon-256.png */,
 				D1446C5E2406A9A3003820B5 /* SafariExtensionHandler.h */,
 				D1446C5F2406A9A3003820B5 /* SafariExtensionHandler.m */,
@@ -149,6 +161,9 @@
 				D1446C622406A9A3003820B5 /* SafariExtensionViewController.m */,
 				D1446C642406A9A3003820B5 /* SafariExtensionViewController.xib */,
 				D1446C672406A9A3003820B5 /* Info.plist */,
+				D1446CC82406F9DA003820B5 /* Icon-64.pdf */,
+				D1446CC62406F666003820B5 /* ToolbarItemIcon4.pdf */,
+				D1446CC22406EF72003820B5 /* Icon-16.png */,
 				D1446C7C2406BA31003820B5 /* mycodestyle.css */,
 				D1446C682406A9A3003820B5 /* script.js */,
 				D1446C6A2406A9A3003820B5 /* ToolbarItemIcon.pdf */,
@@ -247,10 +262,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1446CC72406F666003820B5 /* ToolbarItemIcon4.pdf in Resources */,
+				D1446CC52406F0B9003820B5 /* Icon-16.pdf in Resources */,
 				D1446C7D2406BA31003820B5 /* mycodestyle.css in Resources */,
+				D1446CCB2406FC7A003820B5 /* Icon-64-80x80.pdf in Resources */,
 				D1446C6B2406A9A3003820B5 /* ToolbarItemIcon.pdf in Resources */,
 				D1446CBF2406C43E003820B5 /* README.md in Resources */,
 				D1446C662406A9A3003820B5 /* SafariExtensionViewController.xib in Resources */,
+				D1446CC32406EF72003820B5 /* Icon-16.png in Resources */,
+				D1446CC92406F9DB003820B5 /* Icon-64.pdf in Resources */,
 				D1446CC12406E259003820B5 /* Icon-256.png in Resources */,
 				D1446C692406A9A3003820B5 /* script.js in Resources */,
 			);
