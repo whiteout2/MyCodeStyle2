@@ -13,11 +13,11 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="c22-O7-iKe">
-            <rect key="frame" x="0.0" y="0.0" width="266" height="210"/>
+            <rect key="frame" x="0.0" y="0.0" width="240" height="260"/>
             <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Iy-aV-wGF">
-                    <rect key="frame" x="86" y="108" width="93" height="17"/>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="4Iy-aV-wGF">
+                    <rect key="frame" x="73" y="147" width="93" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="MyCodeStyle2" id="2Ec-kd-q2K">
                         <font key="font" metaFont="systemMedium" size="13"/>
@@ -25,21 +25,21 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujP-Co-sJD">
-                    <rect key="frame" x="109" y="142" width="48" height="48"/>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ujP-Co-sJD">
+                    <rect key="frame" x="96" y="186" width="48" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Icon-256.png" id="Dvk-F4-tbs"/>
                 </imageView>
                 <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="kTV-Sa-8fT">
-                    <rect key="frame" x="49" y="97" width="167" height="5"/>
+                    <rect key="frame" x="36" y="131" width="167" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 </box>
                 <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="YaB-Lf-dbi">
-                    <rect key="frame" x="49" y="41" width="167" height="5"/>
+                    <rect key="frame" x="36" y="61" width="167" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 </box>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zcJ-LO-AzM">
-                    <rect key="frame" x="62" y="50" width="141" height="18"/>
+                    <rect key="frame" x="49" y="74" width="141" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <buttonCell key="cell" type="check" title="Enabled on this site" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="1JE-ed-JNs">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -50,7 +50,7 @@
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mPf-62-eGJ">
-                    <rect key="frame" x="90" y="75" width="85" height="16"/>
+                    <rect key="frame" x="77" y="102" width="85" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="wikipedia.org" id="g3x-9h-vFC">
                         <font key="font" metaFont="system"/>
@@ -58,6 +58,17 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oum-St-Rl2">
+                    <rect key="frame" x="37" y="18" width="165" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Open MyCodeStyle2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JmS-du-xz9">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonClicked:" target="-2" id="fgt-t4-oz7"/>
+                    </connections>
+                </button>
             </subviews>
             <point key="canvasLocation" x="109" y="200"/>
         </customView>

@@ -22,7 +22,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedController = [[SafariExtensionViewController alloc] init];
-        sharedController.preferredContentSize = NSMakeSize(240, 240);
+        sharedController.preferredContentSize = NSMakeSize(240, 260);
     });
     return sharedController;
 }
@@ -31,8 +31,8 @@
 - (IBAction)checkBoxClicked:(id)sender {
     // TEST:
     NSAlert *alert = [[NSAlert alloc] init];
-    [alert setMessageText:@"Message text."];
-    [alert setInformativeText:@"Informative text."];
+    [alert setMessageText:@"Message text"];
+    [alert setInformativeText:@"Informative text"];
     [alert addButtonWithTitle:@"OK"];
     [alert addButtonWithTitle:@"Cancel"];
     [alert runModal];
@@ -46,6 +46,15 @@
     //[SFSafariApplication getActiveWindowWithCompletionHandler:(void (^)(SFSafariWindow * _Nullable activeWindow))completionHandler];
 }
 
+- (IBAction)buttonClicked:(id)sender {
+    // TEST:
+    NSAlert *alert = [[NSAlert alloc] init];
+    [alert setMessageText:@"Message text2"];
+    [alert setInformativeText:@"Informative text2"];
+    [alert addButtonWithTitle:@"OK"];
+    [alert addButtonWithTitle:@"Cancel"];
+    [alert runModal];
+}
 
 
 @end
