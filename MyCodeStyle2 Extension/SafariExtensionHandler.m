@@ -9,6 +9,9 @@
 #import "SafariExtensionHandler.h"
 #import "SafariExtensionViewController.h"
 
+#import "AppKit/AppKit.h"
+
+
 @interface SafariExtensionHandler ()
 
 @end
@@ -30,9 +33,30 @@
     // This method will be called when your toolbar item is clicked.
     NSLog(@"The extension's toolbar item was clicked");
     
-    ///////////////
-    //NSWindowController * wc=[[NSWindowController alloc] initWithWindowNibName:@"SafariExtensionViewController"];
-    //[wc showWindow:self];
+}
+
+
+
+- (void)popoverWillShowInWindow:(SFSafariWindow *)window {
+   // This is called when the extension's popover is about to be opened.
+   // TODO: set url label to the current site
+    
+   // TEST:
+//   NSAlert *alert = [[NSAlert alloc] init];
+//   [alert setMessageText:@"Message text."];
+//   [alert setInformativeText:@"Informative text."];
+//   [alert addButtonWithTitle:@"OK"];
+//   [alert addButtonWithTitle:@"Cancel"];
+//   [alert runModal];
+    
+    [window getActiveTabWithCompletionHandler:^(SFSafariTab *activeTab) {
+        [activeTab getActivePageWithCompletionHandler:^(SFSafariPage *page) {
+            [page getPagePropertiesWithCompletionHandler:^(SFSafariPageProperties *properties) {
+                // Now you can use "properties" in viewController using shareObject
+            }];
+        }];
+    }];
+    
 }
 
 
@@ -42,7 +66,9 @@
 }
 
 - (SFSafariExtensionViewController *)popoverViewController {
+    // Show a popover
     return [SafariExtensionViewController sharedController];
 }
+
 
 @end
