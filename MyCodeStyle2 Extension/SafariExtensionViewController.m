@@ -54,6 +54,29 @@
     [alert addButtonWithTitle:@"OK"];
     [alert addButtonWithTitle:@"Cancel"];
     [alert runModal];
+    
+    // TODO: open the app
+    //[SFSafariApplication openWindowWithURL];
+    //NSString url = URL(string: "{app_url_scheme}")
+
+    //[[NSWorkspace shared] open:@""];
+    
+    // OKOK:
+    //if(![[NSWorkspace sharedWorkspace] launchApplication:@"Calculator"])
+    //    NSLog(@"Calculator failed to launch");
+    
+    // Only works if app is in /Applications
+    //if(![[NSWorkspace sharedWorkspace] launchApplication:@"MyCodeStyle2"])
+    //    NSLog(@"MyCodeStyle2 failed to launch");
+    
+    NSWorkspace *workspace = [NSWorkspace sharedWorkspace];
+    NSURL *url = [NSURL fileURLWithPath:[workspace fullPathForApplication:@"/Users/rg/Library/Developer/Xcode/DerivedData/MyCodeStyle2-dwfsjjljvvaoiaaeajkhhmbrxoqq/Build/Products/Debug/MyCodeStyle2.app"]];
+    //Handle url==nil
+    NSError *error = nil;
+    NSArray *arguments = [NSArray arrayWithObjects:@"Argument1", @"Argument2", nil];
+    [workspace launchApplicationAtURL:url options:0 configuration:[NSDictionary dictionaryWithObject:arguments forKey:NSWorkspaceLaunchConfigurationArguments] error:&error];
+    //Handle error
+    
 }
 
 
