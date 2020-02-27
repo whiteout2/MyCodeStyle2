@@ -8,6 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSOutlineViewDelegate, NSOutlineViewDataSource> {
+@private
+    NSMutableDictionary *_childrenDictionary;
+    IBOutlet NSOutlineView *_sidebarOutlineView;
+}
+
 
 @end
