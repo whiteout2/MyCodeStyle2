@@ -9,8 +9,6 @@
 #import "ViewController.h"
 #import <SafariServices/SFSafariApplication.h>
 
-#import "SidebarTableCellView.h"
-
 
 @implementation ViewController
 
