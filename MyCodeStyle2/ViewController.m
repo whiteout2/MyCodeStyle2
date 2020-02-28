@@ -9,11 +9,16 @@
 #import "ViewController.h"
 #import <SafariServices/SFSafariApplication.h>
 
+#import "SidebarTableCellView.h"
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.appNameLabel.stringValue = @"MyCodeStyle2";
+    
+    
 }
 
 - (IBAction)openSafariExtensionPreferences:(id)sender {
@@ -23,5 +28,7 @@
         }
     }];
 }
+
+
 
 @end

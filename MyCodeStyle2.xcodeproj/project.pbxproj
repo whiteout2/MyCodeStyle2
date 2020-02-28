@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D1446C432406A99D003820B5 /* MyCodeStyle2.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D1446C422406A99D003820B5 /* MyCodeStyle2.entitlements */; };
-		D1446C462406A99D003820B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C452406A99D003820B5 /* AppDelegate.m */; };
+		D1446C462406A99D003820B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C452406A99D003820B5 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D1446C492406A99D003820B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1446C472406A99D003820B5 /* Main.storyboard */; };
-		D1446C4C2406A99D003820B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C4B2406A99D003820B5 /* ViewController.m */; };
+		D1446C4C2406A99D003820B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C4B2406A99D003820B5 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D1446C4E2406A9A2003820B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1446C4D2406A9A2003820B5 /* Assets.xcassets */; };
 		D1446C512406A9A2003820B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1446C502406A9A2003820B5 /* main.m */; };
 		D1446C572406A9A3003820B5 /* MyCodeStyle2 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1446C562406A9A3003820B5 /* MyCodeStyle2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -28,6 +28,7 @@
 		D1446CC72406F666003820B5 /* ToolbarItemIcon4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC62406F666003820B5 /* ToolbarItemIcon4.pdf */; };
 		D1446CC92406F9DB003820B5 /* Icon-64.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CC82406F9DA003820B5 /* Icon-64.pdf */; };
 		D1446CCB2406FC7A003820B5 /* Icon-64-80x80.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1446CCA2406FC79003820B5 /* Icon-64-80x80.pdf */; };
+		D1A373932408691C0062E799 /* SidebarTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A373912408691C0062E799 /* SidebarTableCellView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		D1446CC62406F666003820B5 /* ToolbarItemIcon4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon4.pdf; sourceTree = "<group>"; };
 		D1446CC82406F9DA003820B5 /* Icon-64.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Icon-64.pdf"; sourceTree = "<group>"; };
 		D1446CCA2406FC79003820B5 /* Icon-64-80x80.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Icon-64-80x80.pdf"; sourceTree = "<group>"; };
+		D1A373912408691C0062E799 /* SidebarTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableCellView.m; sourceTree = "<group>"; };
+		D1A373922408691C0062E799 /* SidebarTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableCellView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +131,11 @@
 		D1446C412406A99D003820B5 /* MyCodeStyle2 */ = {
 			isa = PBXGroup;
 			children = (
-				D1446C422406A99D003820B5 /* MyCodeStyle2.entitlements */,
 				D1446C442406A99D003820B5 /* AppDelegate.h */,
 				D1446C452406A99D003820B5 /* AppDelegate.m */,
+				D1A373922408691C0062E799 /* SidebarTableCellView.h */,
+				D1A373912408691C0062E799 /* SidebarTableCellView.m */,
+				D1446C422406A99D003820B5 /* MyCodeStyle2.entitlements */,
 				D1446C472406A99D003820B5 /* Main.storyboard */,
 				D1446C4A2406A99D003820B5 /* ViewController.h */,
 				D1446C4B2406A99D003820B5 /* ViewController.m */,
@@ -285,6 +290,7 @@
 			files = (
 				D1446C4C2406A99D003820B5 /* ViewController.m in Sources */,
 				D1446C512406A9A2003820B5 /* main.m in Sources */,
+				D1A373932408691C0062E799 /* SidebarTableCellView.m in Sources */,
 				D1446C462406A99D003820B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
