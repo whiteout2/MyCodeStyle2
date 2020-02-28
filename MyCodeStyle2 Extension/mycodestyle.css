@@ -3,6 +3,9 @@
      background:yellow !important;
 } */
 
+.mw-highlight pre {
+    font-family:"Times" !important;
+}
      
 .mw-highlight .k,
 .mw-highlight .kc,
@@ -34,13 +37,16 @@
 	font-style:normal !important;
 }
 
-.mw-highlight .o,
+.mw-highlight .n,
 .mw-highlight .nf,
 .mw-highlight .nl,
 .mw-highlight .na,
 .mw-highlight .nb,
 .mw-highlight .nc,
-.mw-highlight .nn {
+.mw-highlight .nn,
+.mw-highlight .o,
+.mw-highlight .p,
+.mw-highlight .lineno {
 	color:black !important;
 	font-weight:normal !important;
 }

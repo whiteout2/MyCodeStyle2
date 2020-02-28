@@ -1,5 +1,5 @@
 # MyCodeStyle2
-Safari 13 App Extension to get Visual Studio code colors in Wikipedia
+Safari App Extension to get Visual Studio code colors in Wikipedia
 
 ![vscolors](mycodestyle2.png)
 

@@ -16,6 +16,9 @@
 
 @end
 
+// MyCodeView2: Be as bold as Bjarne!
+// Use whatever code style you want on Wikipedia
+
 // TODO:
 // * toolbar icon without clipping
 // * handle checkbox and URL detection
