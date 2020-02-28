@@ -19,6 +19,8 @@
 // TODO:
 // * toolbar icon without clipping
 // * handle checkbox and URL detection
+// * per page activity
+// * colors and italics/bold and font
 
 @implementation SafariExtensionHandler
 
