@@ -55,3 +55,66 @@
 .mw-highlight .mf {
 	color:red !important;
 }
+
+
+/* github.com */
+.highlight span.pl-c {
+    color: green !important;
+}
+.highlight span.pl-c1 {
+    color: red !important;
+}
+.highlight span.pl-k {
+    color: blue !important;
+}
+.highlight span.pl-en {
+    color: black !important;
+}
+.highlight span.pl-s {
+    color: maroon !important;
+}
+
+
+span.mcs2,
+td.blob-num.js-line-number,
+td.blob-code.blob-code-inner.js-file-line {
+    font-family:"Times" !important;
+}
+
+/*
+.container .highlight span.pl-c1 {
+color: #ae81ff;
+}
+.container .highlight span.pl-en {
+color: #a6e22e;
+}
+.container .highlight span.pl-k {
+color: #f92672;
+}
+.container .highlight span.pl-pds {
+color: #e6db74;
+}
+.container .highlight span.pl-s {
+color: #e6db74;
+}
+.container .highlight span.pl-smi {
+color: #F8F8F2;
+}
+.container .highlight span.pl-v {
+color: #F8F8F2;
+}
+article pre {
+background-color: #272822;
+color: #F8F8F2;
+}
+td[id^=L] {
+background-color: #272822;
+color: #868686;
+}
+td[id^=LC] {
+color: #F8F8F2;
+}
+.blob-num {
+border: none;
+}
+*/

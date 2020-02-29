@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //console.log(_html);
     //document.getElementsByTagName('pre')[0].innerHTML = "This code is colored by MyCodeStyle2<p>" + _html;
                           
-    // loop
+    // Wikipedia: loop
     var elements = document.getElementsByTagName('pre');
     for (var i=0; i<elements.length; i++) {
         //doSomething(elements[i]);
@@ -28,5 +28,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
         //console.log(_html);
         document.getElementsByTagName('pre')[i].innerHTML = "<span class='c1'>// This code is colored by MyCodeStyle2</span><p>" + _html;
     }
+                          
+    // Github
+     var newHTML = "<pre><span class='mcs2' style='color:green'>// This code is colored by MyCodeStyle2</span></pre>";
+
+     // This is for css files
+     var element = document.querySelector('div.file-header');
+     if (element) element.insertAdjacentHTML("afterend", newHTML);
+                          
+     // SHIT: the script gets aborted when we do not have a div.file-header and we never get here. Our selector was OK.
+     // Must use if () to check for non-null
+     // NOTE: multiclass selector uses . between classes
+     var element2 = document.querySelector('div.Box-header.py-2.d-flex.flex-column.flex-shrink-0.flex-md-row.flex-md-items-center');
+     if (element2) element2.insertAdjacentHTML("afterend", newHTML);
+     //document.querySelector('.Box-header.py-2.d-flex.flex-column.flex-shrink-0.flex-md-row.flex-md-items-center').innerHTML = "QQQ";
+                          
                           
 });
